@@ -62,6 +62,7 @@ $(document).ready(function(){
         $("#autordiv").fadeIn(1000);
         $("#headBdA").hide();
         $("#headFdE").hide();
+        $("#sobrediv").fadeOut();
 
 });
 $("#imgautor").click(function(){
