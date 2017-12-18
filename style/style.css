@@ -113,7 +113,7 @@ nav>ul>li{
 nav{
     position: relative;
     width: 100%;
-    background-color:rgba(119, 172, 164, 0.66);
+    background-color:rgba(119, 172, 164, 0.5);
     float: right;
 }
 #dudu{

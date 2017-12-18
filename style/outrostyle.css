@@ -23,7 +23,7 @@ z-index:6;
 min-width:400px;
 max-width: 100%;
 height: 600px;
-background: rgba(61, 81, 99, 1);
+background: rgba(61, 81, 99, 0.5);
 position: absolute;
 left: 460px;
 top:180px;
@@ -31,7 +31,7 @@ top:180px;
 #autor{
     min-width:400px;
     min-height: 600px;
-    background: rgba(61, 81, 99, 1);
+    background: rgba(61, 81, 99, 0.5);
     position: absolute;
     left: 530px;
     top:180px;
@@ -73,7 +73,7 @@ top:180px;
 nav{
     position: relative;
     width: 100%;
-    background-color:rgba(61, 81, 99, 1);
+    background-color:rgba(61, 81, 99, 0.5);
     float: right;
 }
 @font-face{
