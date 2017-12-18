@@ -1,0 +1,123 @@
+#headBdA{
+    font-family: "apocalipse";
+    position:absolute;
+    left: 280px;
+    top: 270px;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    width: 626px;
+}
+#BdA{
+    color: white;    
+    font-size: 2.0em;
+}
+#headFdE{
+    color: white;
+    font-family: "apocalipse";
+    position:absolute;
+    left: 911px;
+    top: 270px;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    width: 306px;
+}
+#FdE{
+    color: white;    
+    font-size: 2.0em;
+}
+.firstUl{
+    list-style: none;
+    float: left;
+    margin-top: 6px;
+    width: 800px;
+    height: 80px;
+    margin: 0;
+    padding: 30px 0px;
+}
+#home{
+    color: white;
+    margin-top: 10px;
+    cursor:pointer;
+}
+#home:hover{
+    text-decoration: underline;
+}
+body{
+    background-image: url(../imgs/capa.jpg);
+    background-size: 100%;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+}
+li{
+    display: inline;
+}
+li:hover{
+    text-decoration: underline;
+    cursor:pointer;
+
+}
+#indexImgFdE{
+    height: 220px;
+    width: 220px;
+    filter: contrast(100%);
+}
+#indexImgBdA{
+    height: 220px;
+    width: 220px;
+}
+#sobredivhead{
+    position: relative;
+    margin: 0 auto;
+    width: 413px;
+    top: 20px;
+    z-index:6;
+}
+#sobrediv{
+    position: relative;
+    top:40px;
+}
+#sobrehead{
+    font-family: "Times New Roman";
+    color: white;
+    text-shadow:#000000 0 0 1.0em;
+}
+#sobrewiki{
+    min-width:400px;
+    width: 1200px;
+    min-height: 234px;
+    background: rgba(61, 81, 99, 0.527);
+    position: absolute;
+    left: 100px;
+    margin-left: 0 auto;
+    top:180px;
+}
+#sobrepalavra{
+    padding: 0px 20px;
+    font-size: 1.3em;
+    font-family: "Times New Roman";
+    color: white;
+    float: left;
+}
+#indexImgBdA:hover {
+    transform: scale(1.25);    
+}
+#indexImgFdE:hover{
+    transform: scale(1.25)
+}
+nav>ul>li{
+    padding: 0px 10px;
+}
+nav{
+    position: relative;
+    width: 100%;
+    background-color:rgba(119, 172, 164, 0.66);
+    float: right;
+}
+#dudu{
+   position: relative;
+   top: 25px;
+   left:15px; 
+}
