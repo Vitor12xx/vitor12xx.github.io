@@ -8,13 +8,13 @@ $(document).ready(function(){
         $("#grandediv").hide();
         $("#sobrediv").fadeOut(500);
         $("#outragrandediv").hide();
-        $("#divBdA").animate({left: '450px',top: '370px'}, function(){
+        $("#divBdA").animate({left: '20%',top: '40%'}, function(){
             $("#indexImgBdA").css("width", "220px");
             $("#indexImgBdA").css("height", "220px");
             $("#indexImgBdA").addClass("rounded-circle");
             $("#indexImgBdA").removeClass("rounded")
         });
-        $("#divFdE").animate({left: '950px',top: '370px'}, function(){
+        $("#divFdE").animate({left: '60%',top: '40%'}, function(){
             $("#indexImgFdE").css("width", "220px");
             $("#indexImgFdE").css("height", "220px");
             $("#indexImgFdE").addClass("rounded-circle");
