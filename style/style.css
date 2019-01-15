@@ -1,99 +1,257 @@
+#BdAhead{
+position: relative;
+width: 100%;
+top: 20px;
+z-index:6;
+margin-left: 15px;
+}
+
+.BdAbody{
+min-width: 400px;
+max-width: 100%;
+height: 600px;
+background: rgba(61, 81, 99, 0.5);
+position: absolute;
+left: 33%;
+top: 100px;
+margin-right: 8px;
+}
+
+#BdAtitulo{
+font-family: "apocalipse";
+color: white;
+text-shadow:#000000 0 0 1.0em;
+}
+
+#BdAcapa{
+    position: relative;
+    top: 19px;
+    margin-left: 13px;
+    width: 30%;
+}
+
+#FdEhead{
+    position: relative;
+    width: 100%;
+    top: 20px;
+    z-index:6;
+    left: 15px;
+}
+
+#divBdA{
+position:absolute;
+left: 20%;
+top: 40%;
+margin-left:0 auto;
+margin-right:0 auto;
+width: 222px;
+}
+
 #headBdA{
     font-family: "apocalipse";
     position:absolute;
-    left: 280px;
-    top: 270px;
+    left: 20%;
+    top: 25%;
     margin-left:0 auto;
     margin-right:0 auto;
-    width: 626px;
+    max-width: 626px;
+    width: 277px;
 }
-#BdA{
-    color: white;    
-    font-size: 2.0em;
+
+#divFdE{
+position:absolute;
+left: 60%;
+top: 40%;
+margin-left:0 auto;
+margin-right:0 auto;
+width: 222px;
 }
+
 #headFdE{
     color: white;
     font-family: "apocalipse";
     position:absolute;
-    left: 911px;
-    top: 270px;
+    left: 58%;
+    top: 30%;
     margin-left:0 auto;
     margin-right:0 auto;
     width: 306px;
 }
+
+#outragrandediv{
+    position: relative;
+    top: 83px;
+}
+
+#dudu{
+   position: relative;
+   top: 3px;
+   left: 15px;
+   width: 35%;
+}
+
+#autordiv{
+    position: relative;
+    top: 84px;
+}
+
+#autor{
+    min-width:400px;
+    min-height: 600px;
+    background: rgba(61, 81, 99, 0.5);
+    position: absolute;
+    left: 39%;
+    top: 87px;
+    margin-right: 8px;
+}
+
+#autorhead{
+    position: relative;
+    left: 10%;
+    width: 370px;
+    top: -60px;
+    z-index:6;
+}
+
+#autortitulo{
+    font-family: "apocalipse";
+    color: white;
+    height: 0px;
+    text-shadow:#000000 0 0 1.0em;
+}
+
+#autorwiki{
+    padding: 0px 20px;
+    font-size: 1.2em;
+    font-family: "Times New Roman";
+    color: white;
+    float: left;
+}
+
+#FdEtitulo{
+    font-family: "apocalipse";
+    color: white;
+    text-shadow:#000000 0 0 1.0em;
+}
+#BdAwiki{
+    padding: 0px 20px;
+    font-size: 1.3em;
+    font-family: "Times New Roman";
+    color: white;
+    float: left;
+}
+
+@font-face{
+    font-family: apocalipse;
+    src:url(../fonts/Eremaeus.ttf);
+}
+
+#BdA{
+    color: white;    
+    font-size: 2.0em;
+}
+
 #FdE{
     color: white;    
     font-size: 2.0em;
 }
+
+#demo{
+    top: 0px;
+    width: 30%;
+    margin-left:13px;
+}
+
+
 .firstUl{
     list-style: none;
     float: left;
     margin-top: 6px;
-    width: 800px;
+    width: 130px;
     height: 80px;
     margin: 0;
     padding: 30px 0px;
 }
+
 #home{
     color: white;
     margin-top: 10px;
     cursor:pointer;
 }
+
 #home:hover{
     text-decoration: underline;
 }
+
 body{
     background-image: url(../imgs/capa.jpg);
     background-size: 100%;
 }
+
+nav{
+    position: relative;
+    width: 100%;
+    background-color: rgba(61, 81, 99, 0.527);
+    float: right;
+}
+
 ul{
     list-style-type: none;
     float: right;
     margin: 0;
 }
+
 li{
     display: inline;
+    padding: 0px 10px;
 }
+
 li:hover{
     text-decoration: underline;
     cursor:pointer;
-
 }
+
 #indexImgFdE{
     height: 220px;
     width: 220px;
     filter: contrast(100%);
 }
+
 #indexImgBdA{
     height: 220px;
     width: 220px;
 }
+
 #sobredivhead{
     position: relative;
-    margin: 0 auto;
+    left: 25%;
     width: 413px;
     top: 20px;
     z-index:6;
 }
-#sobrediv{
-    position: relative;
-    top:40px;
-}
+
 #sobrehead{
     font-family: "Times New Roman";
     color: white;
     text-shadow:#000000 0 0 1.0em;
 }
+
+#sobrediv{
+    position: relative;
+    top:40px;
+}
+
 #sobrewiki{
     min-width:400px;
-    width: 1200px;
+    width: 80%;
     min-height: 234px;
     background: rgba(61, 81, 99, 0.527);
     position: absolute;
-    left: 100px;
+    left: 8%;
     margin-left: 0 auto;
     top:180px;
 }
+
 #sobrepalavra{
     padding: 0px 20px;
     font-size: 1.3em;
@@ -101,23 +259,11 @@ li:hover{
     color: white;
     float: left;
 }
+
 #indexImgBdA:hover {
-    transform: scale(1.25);    
+    transform: scale(1.15);    
 }
+
 #indexImgFdE:hover{
-    transform: scale(1.25)
-}
-nav>ul>li{
-    padding: 0px 10px;
-}
-nav{
-    position: relative;
-    width: 100%;
-    background-color:rgba(119, 172, 164, 0.5);
-    float: right;
-}
-#dudu{
-   position: relative;
-   top: 25px;
-   left:15px; 
+    transform: scale(1.15)
 }
