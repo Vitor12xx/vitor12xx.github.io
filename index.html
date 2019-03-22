@@ -32,26 +32,21 @@
 </head>
 
 <body>
-    <nav>
+
+    <nav class="nav-bar">
         <ul class="container firstUl">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li id="home">HOME</li>
+            <li id="homeli">HOME</li>
         </ul>
-        <ul>
-            <li id="sobreli" style="color:white">
-                SOBRE</li>
-            <li id="autorli"style="color:white">
-                AUTOR</li>
-            <li style="color:white"> 
-                <img id="imgautor" src="imgs/duzinho.png" class="rounded" alt="lorem ipsum" style="width:80px;height:80px;margin-top:3px;">
+        <ul class="secondUl">
+            <li id="sobreli">SOBRE</li>
+            <li id="autorli">AUTOR</li>
+            <li> 
+                <img id="imgautor" src="imgs/duzinho.png" class="rounded" alt="Autor Image">
             </li>
         </ul>
     </nav>
+
+
     <div id="headBdA">
         <p id="BdA">A BATALHA DO APOCALIPSE</p>
     </div>
@@ -59,25 +54,25 @@
         <p id="FdE">FILHOS DO EDEN</p>
     </div>
 
-    <div id="divBdA">
+    <div id="BdA-icon">
         <li id="firstLi">
             <img id="indexImgBdA" src="imgs/BdAcapa1.png" class="rounded-circle" alt="1">
         </li>
     </div>
-    <div id="divFdE">
+    <div id="FdE-icon">
         <li>
             <img id="indexImgFdE" src="imgs/FdEcapa2.png" class="rounded-circle" alt="2">
         </li>
     </div>
     
-    <div id="grandediv" style="display:none">
+    <div id="BdAdiv">
         <img id="BdAcapa" src="imgs/BdAcapa.jpg" class="rounded" alt="capa">
         
         <div class="BdAbody rounded">
             <div id="BdAhead">
                     <h1 id="BdAtitulo">A BATALHA DO APOCALIPSE</h1>
-                </div>
-            <p id="BdAwiki">
+            </div>
+            <p class="wiki">
                 <br> Há muitos e muitos anos, tantos quanto o número de estrelas no céu, o paraíso celeste foi palco de um terrível
                 levante. Um grupo de anjos guerreiros, amantes da justiça e da liberdade, desafiou a tirania dos poderosos
                 arcanjos, levantando armas contra seus opressores. Expulsos, os renegados foram forçados ao exílio e condenados
@@ -91,22 +86,24 @@
                 da Inglaterra medieval, A Batalha do Apocalipse não é apenas uma viagem pela história humana - é também uma
                 jornada de conhecimento, um épico empolgante, repleto de lutas heroicas, magia, romance e suspense.
             </p>
-            <div style="position:relative;bottom:-70px;padding:0px 20px">
-                <b style="color:white">A BATALHA DO APOCALIPSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
-                <a href="http://www.submarino.com.br/produto/7182335/livro-a-batalha-do-apocalipse-da-queda-dos-anjos-ao-crepusculo-do-mundo">Submarino</a>
-                |
-                <a href="http://www.saraiva.com.br/a-batalha-do-apocalipse-da-queda-dos-anjos-ao-crepusculo-do-mundo-3047055.html">Saraiva</a>
-                |
-                <a href="http://www.amazon.com.br/Batalha-do-Apocalipse-Eduardo-Spohr/dp/8576860767/ref=sr_1_cc_1?s=aps&ie=UTF8&qid=1438362371&sr=1-1-catcorr&keywords=a+batalha+do+apocalipse">Amazon</a>
-                |
-                <a href="http://www.livrariacultura.com.br/p/a-batalha-do-apocalipse-22137877">Cultura</a>
+            <div class="books">
+                <label class="books-labels">
+                    <b>A BATALHA DO APOCALIPSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
+                    <a href="http://www.submarino.com.br/produto/7182335/livro-a-batalha-do-apocalipse-da-queda-dos-anjos-ao-crepusculo-do-mundo">Submarino</a>
+                    |
+                    <a href="http://www.saraiva.com.br/a-batalha-do-apocalipse-da-queda-dos-anjos-ao-crepusculo-do-mundo-3047055.html">Saraiva</a>
+                    |
+                    <a href="http://www.amazon.com.br/Batalha-do-Apocalipse-Eduardo-Spohr/dp/8576860767/ref=sr_1_cc_1?s=aps&ie=UTF8&qid=1438362371&sr=1-1-catcorr&keywords=a+batalha+do+apocalipse">Amazon</a>
+                    |
+                    <a href="http://www.livrariacultura.com.br/p/a-batalha-do-apocalipse-22137877">Cultura</a>
+                </label>
             </div>
         </div>
     </div>
 
-    <div id="outragrandediv" style="display:none">
+    <div id="FdEdiv">
 
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="caurosel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="imgs/FdE1.jpg" style="width: 100%;" class="rounded">
@@ -118,62 +115,73 @@
                     <img src="imgs/FdE3.jpg" style="width: 100%;" class="rounded">
                 </div>
             </div>
-    </div>
-    <div class="BdAbody rounded">
-        <div id="FdEhead">
-            <h1 id="FdEtitulo">OS FILHOS DO EDEN</h1>
         </div>
 
-        <p id="BdAwiki" class="rounded">
-            <br>Filhos do Éden é uma trilogia de livros de literatura fantástica, que aborda temas como anjos, fim dos tempos
-            e apocalipse, escrito pelo brasileiro Eduardo Spohr.
-            <br>
-            <br> Os três livros tiveram mais de 700 mil exemplares vendidos no país, juntamente com o outro best-seller A Batalha
-            do Apocalipse, também escrito pelo autor, lançado em 2010. Éden, uma vez que não se conceitua como uma continuação
-            do livro A Batalha do Apocalipse, funciona como um prequel direto a ele, e, embora se estabeleça no mesmo universo
-            criativo, não tem como figuras principais os mesmos personagens.
-            <br>
-            <br> De fato, a série se diferencia de A Batalha do Apocalipse por seu tom mais "humanizado" e por suas referências
-            históricas mais evidentes.
-        </p>
-        <div style="position:relative;bottom:-70px;padding:0px 20px">
-            <b style="color:white">FILHOS DO EDEN: HERDEIROS DE ATLANTIDA&nbsp&nbsp</b>
-            <a href="http://www.submarino.com.br/produto/7539969/livro-filhos-do-eden-herdeiros-de-atlantida-livro-1?DCSext.recom=Neemu_Produto_viu-comprou-T-1&nm_origem=rec_produto_viu-comprou-T-1&nm_ranking_rec=2">Submarino</a>
-            |
-            <a href="http://www.saraiva.com.br/filhos-do-eden-herdeiros-de-atlantida-vol-1-3648948.html">Saraiva</a>
-            |
-            <a href="http://www.amazon.com.br/Filhos-%C3%89den-Herdeiros-Atl%C3%A2ntida-Vol-ebook/dp/B00AHEHOOY/ref=sr_1_cc_2?s=aps&ie=UTF8&qid=1438362371&sr=1-2-catcorr&keywords=a+batalha+do+apocalipse">Amazon</a>
-            |
-            <a href="http://www.livrariacultura.com.br/p/filhos-do-eden-v1-herdeiros-de-atlantida-22681561">Cultura</a>
-        </div>
-        <div style="position:relative;bottom:-70px;padding:0px 20px">
-            <b style="color:white">FILHOS DO EDEN: ANJOS DA MORTE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
-            <a href="http://www.submarino.com.br/produto/113158980/livro-filhos-do-eden-anjos-da-morte-livro-2?DCSext.recom=Neemu_Produto_comprou-junto-T-3&nm_origem=rec_produto_comprou-junto-T-3&nm_ranking_rec=3">Submarino</a>
-            |
-            <a href="http://www.saraiva.com.br/filhos-do-eden-anjos-da-morte-livro-2-4888312.html?mi=VITRINECHAORDIC_frequentlyboughttogether_product_4888312">Saraiva</a>
-            |
-            <a href="http://www.amazon.com.br/Anjos-Morte-Filhos-%C3%89den-Livro-ebook/dp/B00EAQUP6Y/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1438362518&sr=1-1&keywords=anjos+da+morte">Amazon</a>
-            |
-            <a href="http://www.livrariacultura.com.br/p/filhos-do-eden-v2-anjos-da-morte-42109620">Cultura</a>
-        </div>
-        <div style="position:relative;bottom:-70px;padding:0px 20px">
-            <b style="color:white">FILHOS DE EDEN: PARAÍSO PERDIDO &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
-            <a href="http://www.submarino.com.br/produto/124131475/livro-filhos-do-eden-3-paraiso-perdido">Submarino</a>
-            |
-            <a href="http://www.saraiva.com.br/filhos-do-eden-paraiso-perdido-vol3-9016866.html">Saraiva</a>
-            |
-            <a href="http://www.amazon.com.br/Filhos-%C3%89den-Para%C3%ADso-Perdido-Volume/dp/8576864754/">Amazon</a>
-            |
-            <a href="http://www.livrariacultura.com.br/p/filhos-do-eden-v3-paraiso-perdido-46041114">Cultura</a>
+        <div class="BdAbody rounded">
+            <div id="FdEhead">
+                <h1 id="FdEtitulo">OS FILHOS DO EDEN</h1>
+            </div>
+
+            <p class="wiki">
+                <br>Filhos do Éden é uma trilogia de livros de literatura fantástica, que aborda temas como anjos, fim dos tempos
+                e apocalipse, escrito pelo brasileiro Eduardo Spohr.
+                <br>
+                <br> Os três livros tiveram mais de 700 mil exemplares vendidos no país, juntamente com o outro best-seller A Batalha
+                do Apocalipse, também escrito pelo autor, lançado em 2010. Éden, uma vez que não se conceitua como uma continuação
+                do livro A Batalha do Apocalipse, funciona como um prequel direto a ele, e, embora se estabeleça no mesmo universo
+                criativo, não tem como figuras principais os mesmos personagens.
+                <br>
+                <br> De fato, a série se diferencia de A Batalha do Apocalipse por seu tom mais "humanizado" e por suas referências
+                históricas mais evidentes.
+            </p>
+
+        <!-- CONSERTAR  -->
+
+            <div class="books">
+                <label class="books-labels">
+                    <b>FILHOS DO EDEN: HERDEIROS DE ATLANTIDA&nbsp&nbsp</b>
+                    <a href="http://www.submarino.com.br/produto/7539969/livro-filhos-do-eden-herdeiros-de-atlantida-livro-1?DCSext.recom=Neemu_Produto_viu-comprou-T-1&nm_origem=rec_produto_viu-comprou-T-1&nm_ranking_rec=2">Submarino</a>
+                    |
+                    <a href="http://www.saraiva.com.br/filhos-do-eden-herdeiros-de-atlantida-vol-1-3648948.html">Saraiva</a>
+                    |
+                    <a href="http://www.amazon.com.br/Filhos-%C3%89den-Herdeiros-Atl%C3%A2ntida-Vol-ebook/dp/B00AHEHOOY/ref=sr_1_cc_2?s=aps&ie=UTF8&qid=1438362371&sr=1-2-catcorr&keywords=a+batalha+do+apocalipse">Amazon</a>
+                    |
+                    <a href="http://www.livrariacultura.com.br/p/filhos-do-eden-v1-herdeiros-de-atlantida-22681561">Cultura</a>
+                </label>
+                <label class="books-labels">
+                    <b>FILHOS DO EDEN: ANJOS DA MORTE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
+                    <a href="http://www.submarino.com.br/produto/113158980/livro-filhos-do-eden-anjos-da-morte-livro-2?DCSext.recom=Neemu_Produto_comprou-junto-T-3&nm_origem=rec_produto_comprou-junto-T-3&nm_ranking_rec=3">Submarino</a>
+                    |
+                    <a href="http://www.saraiva.com.br/filhos-do-eden-anjos-da-morte-livro-2-4888312.html?mi=VITRINECHAORDIC_frequentlyboughttogether_product_4888312">Saraiva</a>
+                    |
+                    <a href="http://www.amazon.com.br/Anjos-Morte-Filhos-%C3%89den-Livro-ebook/dp/B00EAQUP6Y/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1438362518&sr=1-1&keywords=anjos+da+morte">Amazon</a>
+                    |
+                    <a href="http://www.livrariacultura.com.br/p/filhos-do-eden-v2-anjos-da-morte-42109620">Cultura</a>
+                </label>
+                <label class="books-labels">
+                    <b>FILHOS DE EDEN: PARAÍSO PERDIDO &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
+                    <a href="http://www.submarino.com.br/produto/124131475/livro-filhos-do-eden-3-paraiso-perdido">Submarino</a>
+                    |
+                    <a href="http://www.saraiva.com.br/filhos-do-eden-paraiso-perdido-vol3-9016866.html">Saraiva</a>
+                    |
+                    <a href="http://www.amazon.com.br/Filhos-%C3%89den-Para%C3%ADso-Perdido-Volume/dp/8576864754/">Amazon</a>
+                    |
+                    <a href="http://www.livrariacultura.com.br/p/filhos-do-eden-v3-paraiso-perdido-46041114">Cultura</a>
+                </label>
+            </div>
+
+        <!-- ^^ CONSERTAR ^^ -->
+
         </div>
     </div>
-    </div>
-    <div id="autordiv" style="display:none">
+
+    <div id="autordiv">
         <div id="autorhead">
             <h1 id="autortitulo">SOBRE O AUTOR</h1>
         </div>
 
         <img id="dudu" src="imgs/dudu.jpg" alt="dudu">
+
         <div class="rounded" id="autor">
           <p id="autorwiki">Eduardo Spohr nasceu em junho de 1976, no Rio de Janeiro. Filho de um piloto de aviões e de uma comissária de bordo, teve a oportunidade de viajar pelo mundo, conhecendo culturas e povos diferentes. Como nunca soube desenhar, aprendeu a extravasar sua imaginação na escrita, produzindo contos, novelas e roteiros.
             
@@ -191,9 +199,10 @@
             Com livros publicados na Holanda, Alemanha, Portugal e com os direitos de suas obras vendidos para a Turquia, Spohr foi agraciado, em 2012, com o prêmio Fundação Luso-Brasileira na categoria revelação, criado para incentivar o trabalho de artistas de língua lusófona.</p>
         </div>
     </div>
-    <div id="sobrediv" style="display:none">
+
+    <div id="sobrediv">
         <div id="sobredivhead">
-            <h1 id="sobrehead">Sobre este site...</h1>
+            <h1 id="sobrehead">Sobre o Site.</h1>
         </div>
 
         <div class="rounded" id="sobrewiki">
@@ -201,15 +210,14 @@
                 Este site foi feito em homenagem ao escritor Eduardo Spohr, apresenta sua primeiro grande obra "A Batalha do Apocalipse" e a trilogia prequel, "Filhos do Éden".
                 <br>
                 <br>
-                Feito como TCC para o Projeto Realiza Digital. Criado por Fabiano de Marco, Ricardo Costa, entre outros investidores.
+                Feito como TCC para o <a href="https://www.realizadigital.org/">Projeto Realiza Digital</a>. Criado por <a href="https://www.linkedin.com/in/fabiano-de-marco-bet-6184a6a2/?originalSubdomain=br">Fabiano de Marco</a>, <a href="https://www.linkedin.com/in/ricardo-costa-66449936/">Ricardo Costa</a>, entre outros investidores.
                 <br>
                 <br>
-                Este site foi idealizado e produzido por Vitor Oliveira Torino utilizando recursos adquiridos em sala de aula. O site continuará em construção após sua apresentação.
+                Este site foi idealizado e produzido por <a href="https://www.linkedin.com/in/vitor-torino-337090173/">Vitor Oliveira Torino</a> utilizando recursos adquiridos em sala de aula. O site continuará em construção após sua apresentação.
             </p>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="js/script.js"></script>
 </body>
-
 </html>
