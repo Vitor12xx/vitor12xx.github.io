@@ -1,26 +1,64 @@
-#BdAhead{
-position: relative;
-width: 100%;
-top: 20px;
-z-index:6;
-margin-left: 15px;
+body{
+    background-color: #142a4f;
+    color: white;
+}
+
+a{
+    color: darkorange;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+}
+
+li{
+    display: inline;
+    color: white;
+    padding: 0px 10px;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor:pointer;
 }
 
 .BdAbody{
-min-width: 400px;
-max-width: 100%;
-height: 600px;
-background: rgba(61, 81, 99, 0.5);
-position: absolute;
-left: 33%;
-top: 100px;
-margin-right: 8px;
+    position: absolute;
+    min-width: 400px;
+    max-width: 100%;
+    background: rgba(61, 81, 99, 0.5);
+    left: 33%;
+    top: 100px;
+    margin-right: 8px;
+}
+
+#BdAhead{
+    position: relative;
+    width: 100%;
+    top: 20px;
+    z-index:6;
+    margin-left: 15px;
+}
+
+.wiki{
+    padding: 0 20px;
+    font-size: 1.3em;
+    font-family: "Times New Roman";
+    text-align: left;
 }
 
 #BdAtitulo{
-font-family: "apocalipse";
-color: white;
-text-shadow:#000000 0 0 1.0em;
+    font-family: "apocalipse";
+    color: white;
+    text-shadow:#000000 0 0 1.0em;
 }
 
 #BdAcapa{
@@ -38,13 +76,19 @@ text-shadow:#000000 0 0 1.0em;
     left: 15px;
 }
 
-#divBdA{
-position:absolute;
-left: 20%;
-top: 40%;
-margin-left:0 auto;
-margin-right:0 auto;
-width: 222px;
+.books{
+    position: relative;
+    margin-top: 50px;
+    padding:0px 20px;
+}
+
+#BdA-icon{
+    position:absolute;
+    left: 20%;
+    top: 40%;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    width: 222px;
 }
 
 #headBdA{
@@ -58,13 +102,13 @@ width: 222px;
     width: 277px;
 }
 
-#divFdE{
-position:absolute;
-left: 60%;
-top: 40%;
-margin-left:0 auto;
-margin-right:0 auto;
-width: 222px;
+#FdE-icon{
+    position:absolute;
+    left: 60%;
+    top: 40%;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    width: 222px;
 }
 
 #headFdE{
@@ -78,16 +122,18 @@ width: 222px;
     width: 306px;
 }
 
-#outragrandediv{
-    position: relative;
-    top: 83px;
-}
-
 #dudu{
    position: relative;
    top: 3px;
    left: 15px;
    width: 35%;
+   max-width: 480px;
+}
+
+#imgautor{
+    width: 80px;
+    height: 80px;
+    margin-top: 3px;
 }
 
 #autordiv{
@@ -96,12 +142,12 @@ width: 222px;
 }
 
 #autor{
-    min-width:400px;
+    position: absolute;
+    min-width: 600px;
     min-height: 600px;
     background: rgba(61, 81, 99, 0.5);
-    position: absolute;
     left: 39%;
-    top: 87px;
+    top: 10px;
     margin-right: 8px;
 }
 
@@ -133,82 +179,54 @@ width: 222px;
     color: white;
     text-shadow:#000000 0 0 1.0em;
 }
-#BdAwiki{
-    padding: 0px 20px;
-    font-size: 1.3em;
-    font-family: "Times New Roman";
-    color: white;
-    float: left;
-}
 
 @font-face{
     font-family: apocalipse;
     src:url(../fonts/Eremaeus.ttf);
 }
 
-#BdA{
+#BdA, #FdE{
     color: white;    
     font-size: 2.0em;
 }
 
-#FdE{
-    color: white;    
-    font-size: 2.0em;
+#BdAdiv, #FdEdiv, #autordiv, #sobrediv{
+    display: none;
 }
 
-#demo{
-    top: 0px;
+#caurosel{
+    position: relative;
+    top: 55px;
     width: 30%;
     margin-left:13px;
 }
 
-
-.firstUl{
-    list-style: none;
-    float: left;
-    margin-top: 6px;
-    width: 130px;
-    height: 80px;
-    margin: 0;
-    padding: 30px 0px;
-}
-
-#home{
-    color: white;
-    margin-top: 10px;
-    cursor:pointer;
-}
-
-#home:hover{
-    text-decoration: underline;
-}
-
-body{
-    background-image: url(../imgs/capa.jpg);
-    background-size: 100%;
-}
-
-nav{
+.nav-bar{
     position: relative;
     width: 100%;
     background-color: rgba(61, 81, 99, 0.527);
-    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-ul{
-    list-style-type: none;
-    float: right;
-    margin: 0;
+.firstUl{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+    height: 100%;
 }
 
-li{
-    display: inline;
-    padding: 0px 10px;
+.secondUl{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
 }
 
-li:hover{
-    text-decoration: underline;
-    cursor:pointer;
+#homeli{
+    margin-left: 100px;
 }
 
 #indexImgFdE{
@@ -222,43 +240,29 @@ li:hover{
     width: 220px;
 }
 
-#sobredivhead{
-    position: relative;
-    left: 25%;
-    width: 413px;
-    top: 20px;
-    z-index:6;
+#sobrediv{
+    margin: 100px auto;
+    width: 70%;
+    text-align: center;
 }
 
 #sobrehead{
     font-family: "Times New Roman";
-    color: white;
     text-shadow:#000000 0 0 1.0em;
-    height: 0px;
-}
-
-#sobrediv{
-    position: relative;
-    top:40px;
 }
 
 #sobrewiki{
-    min-width:400px;
-    width: 80%;
-    min-height: 234px;
+    text-align: left;
+    padding: 5px;
+    min-width: 400px;
+    width: 100%;
     background: rgba(61, 81, 99, 0.527);
-    position: absolute;
-    left: 8%;
-    margin-left: 0 auto;
-    top:180px;
 }
 
 #sobrepalavra{
     padding: 0px 20px;
     font-size: 1.3em;
     font-family: "Times New Roman";
-    color: white;
-    float: left;
 }
 
 #indexImgBdA:hover {
